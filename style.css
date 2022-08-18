@@ -44,11 +44,7 @@ button  {
 
   color: #fff;
   background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
-   background-origin: border-box;
-  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+   
 }
 
 button:focus {
@@ -67,20 +63,26 @@ button:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.body-headline  {
 
-}
 .box-container  {
     display: flex;
-    
+    justify-content: center;
+}
+.box-and-paragraph  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .icon-box   {
     border-radius: 25px;
     border: 2px solid #3882F6;
-    padding: 20px;
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
 }
 .body-paragraphs  {
     text-align: center;
@@ -111,4 +113,38 @@ button:focus {
     font-size: 18px;
     align-self: flex-end;
     padding-right: 200px;
+}
+
+.call-container {
+    background-color: #F9FAF8;
+    padding: 64px;
+    display: flex;
+    justify-content: center; 
+}
+.call-to-action {
+    display: flex;
+    border-radius: 15px;
+    height: 150px;
+    width: 80%;
+    
+    background-color: #367AF6;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-left  {
+    color: #E5E7EB;
+}
+#call-right  {
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
+
+footer  {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
